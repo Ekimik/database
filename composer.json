@@ -23,10 +23,16 @@
         "irc": "irc://irc.freenode.org/cakephp",
         "source": "https://github.com/cakephp/database"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ekimik/datasource"
+        }
+    ],
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=8.1",
         "cakephp/core": "^4.0",
-        "cakephp/datasource": "^4.0"
+        "cakephp/datasource": "dev-master"
     },
     "suggest": {
         "cakephp/i18n": "If you are using locale-aware datetime formats or Chronos types."
