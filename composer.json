@@ -27,11 +27,15 @@
         {
             "type": "vcs",
             "url": "https://github.com/Ekimik/datasource"
-        }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ekimik/core"
+        }        
     ],
     "require": {
         "php": ">=8.1",
-        "cakephp/core": "^4.0",
+        "cakephp/core": "dev-master",
         "cakephp/datasource": "dev-master"
     },
     "suggest": {
